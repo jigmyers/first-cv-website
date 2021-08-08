@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(32, 28, 60);
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+#btn-burger {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  margin-left: 20rem;
+  top: 12%;
+  position: absolute;
+  top: 0;
+  left: 79%;
+}
+
+#burger-img {
+  width: 5vh;
+  height: 5vh;
+  margin: 2vh;
+}
+
+.btn-nav {
+  margin: 0.5em;
+  height: 75%;
+  width: 75%;
+  border-radius: 2vh;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.displayCheck {
+  visibility: visible;
+  transition: opacity 0, 5s;
+}
+
+nav {
+  background-color: rgba(245, 245, 245, 0.329);
+  border-radius: 5rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  width: 20%;
+  align-items: center;
+  margin-left: 30rem;
+}
+
+.title {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 144px;
+  letter-spacing: -7%;
+}
+
+#name {
+  margin-left: 50%;
+}
+
+main {
+  margin: 0;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.titleCV {
+  font-size: 2.5vh;
+  margin-top: 15vh;
+}
+
+.CV-content {
+  color: grey;
+  font-weight: lighter;
+}

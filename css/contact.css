@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, #201c3c 75%, #ffaaaa 60%);
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin: 25px;
+}
+
+header {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+
+#btn-burger {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  margin: 0;
+}
+
+#burger-img {
+  width: 5vh;
+  height: 5vh;
+  margin: 2vh;
+}
+
+.btn-nav {
+  margin: 2em;
+  height: 75%;
+  width: 10%;
+  border-radius: 15%;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.displayCheck {
+  visibility: visible;
+  transition: opacity 0, 5s;
+}
+
+nav {
+  background-color: rgba(245, 245, 245, 0.329);
+  border-radius: 5rem;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  visibility: hidden;
+  margin: 0 5%;
+}
+
+.iphone {
+  height: 640px;
+  width: 320px;
+}
+
+main {
+  text-align: center;
+  margin-right: 400px;
+}

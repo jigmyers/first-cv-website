@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(32, 28, 60);
+  font-family: "Roboto", sans-serif;
+  background-image: url(../Image/triangle.png);
+  background-size: 85em;
+  background-repeat: no-repeat;
+  background-position: center top 20%;
+}
+
+h1 {
+  margin: 25px;
+}
+
+header {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+
+#btn-burger {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  margin: 0;
+}
+
+#burger-img {
+  width: 5vh;
+  height: 5vh;
+  margin: 2vh;
+}
+
+main {
+  padding-top: 10vh;
+  font-size: 5vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  height: 60vh;
+}
+
+article {
+  color: aliceblue;
+  text-align: center;
+}
+
+span {
+  font-weight: 500;
+}
+
+.btn-nav {
+  margin: 2em;
+  height: 75%;
+  width: 10%;
+  border-radius: 15%;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.displayCheck {
+  visibility: visible;
+  transition: opacity 0, 5s;
+}
+
+nav {
+  background-color: rgba(245, 245, 245, 0.329);
+  border-radius: 5rem;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  visibility: hidden;
+  margin: 0 5%;
+}
