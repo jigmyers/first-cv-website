@@ -5,5 +5,4 @@ This is my first website, all in HTML/CSS and javascript. No responsive yet, __n
 For now, I only used html, pure css and basic javascript. I work now on a new project using SASS and more modern CSS components.
 
 ### This Project is available [here] [1]: 
-[1]
-(http://erwancoubel.tech)
+[1](http://erwancoubel.tech)
