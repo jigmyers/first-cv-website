@@ -6,6 +6,3 @@ For now, I only used html, pure css and basic javascript. I work now on a new pr
 
 ### This Project is available [here](http://erwancoubel.tech).
 
-#### An overview : 
-
-
